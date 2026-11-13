@@ -42,6 +42,9 @@
 
     .note { margin-top: 16px; color: #6f6f6f; font-size: 13px; line-height: 1.5; }
     @media (max-width: 640px) { .stats { grid-template-columns: 1fr; } .num { font-size: 44px; } }
+    h2 { margin: 64px 0 8px; font-size: clamp(24px, 4vw, 34px); font-weight: 800; letter-spacing: -0.02em; }
+    .sub { margin: 0 0 24px; color: #a6a6a6; font-size: 15px; line-height: 1.5; }
+    .map-card { padding: 16px; }
   </style>
 </head>
 <body>
@@ -67,6 +70,11 @@
     </div>
 
     <p class="note">Cantidad de pedidos de viaje por año, incluidos los cancelados. Los kilómetros y las horas son solo de los 772 viajes completados. 2018 empieza en septiembre y 2026 llega hasta el 9 de noviembre.</p>
+    <h2>¿En qué ciudades usé Uber?</h2>
+    <p class="sub">759 de mis 772 viajes fueron en Buenos Aires. El resto, en 7 ciudades de Argentina, Chile y Europa.</p>
+    <div class="card map-card">
+      <div style="min-height:294px" id="datawrapper-vis-1g5c4"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/1g5c4/embed.js" charset="utf-8" data-target="#datawrapper-vis-1g5c4" data-dark="true"></script><noscript><img src="https://datawrapper.dwcdn.net/1g5c4/full.png" alt="Mapa de las ciudades donde usé Uber" /></noscript></div>
+    </div>
   </div>
 </body>
 </html>
